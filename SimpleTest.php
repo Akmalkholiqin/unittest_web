@@ -10,7 +10,7 @@ class SimpleTest extends TestCase {
         // Membuat instance dari kelas Wordcount 
         $Wc = new Wordcount();        
         // Menyiapkan kalimat uji
-        $testSentence = "My name is a agos"; 
+        $testSentence = "My name is a Akmal"; 
         // Menghitung jumlah kata
         $wordCount = $Wc->countWords($testSentence); 
         // Membandingkan hasil penghitungan kata dengan 5
